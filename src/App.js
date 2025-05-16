@@ -10,7 +10,7 @@ function App() {
 
   const handleRun = async () => {
     try {
-      const response = await axios.post('http://localhost:8000/api/execute/', {
+      const response = await axios.post('https://code-editor-backend-xyst.onrender.com/api/execute/', {
         code,
         input,
       });
